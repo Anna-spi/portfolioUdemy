@@ -1,7 +1,9 @@
 @import "libs/bootstrap-reboot.min";
-@import "libs/_fonts";
+// @import "libs/_fonts";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
 
 @import "base/variables";
+@import "base/mixins";
 
 * {
   font-family: "Poppins", sans-serif;
@@ -13,3 +15,17 @@
   width: 1140px;
   margin: 0 auto;
 }
+
+.divider {
+  width: 60px;
+  height: 3px;
+  background-color: $main-color;
+  margin-top: 25px;
+}
+
+@import "blocks/promo";
+@import "blocks/title";
+@import "blocks/botton";
+@import "blocks/sidepanel";
+@import "blocks/menu";
+@import "blocks/about";
